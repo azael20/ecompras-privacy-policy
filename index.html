@@ -14,13 +14,57 @@
       max-width: 900px;
       color: #222;
     }
-    h1, h2, h3 {
-      color: #004b8d;
+    h1 {
+      color: #00723f;
+    }
+    h2 {
+      color: #dd971a;
+    }
+    .uabc-header {
+      background-color: #00723f;
+      padding: 30px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .uabc-logo {
+      width: 90px;
+      height: auto;
+    }
+
+    .uabc-header h1 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      margin: 0;
+    }
+
+    .uabc-header::before,
+    .uabc-header::after {
+      content: "";
+      display: block;
+      height: 2px;
+      background-color: white;
+      margin: 10px auto;
+      width: 80%;
     }
   </style>
 </head>
 <body>
-  <h1>AVISO DE PRIVACIDAD ACADÉMICO</h1>
+  <header class="uabc-header">
+  <div class="header-content">
+    <img src="./logo-uabc.png" alt="Logo UABC" class="uabc-logo">
+    <h1>AVISO DE PRIVACIDAD ACADÉMICO</h1>
+  </div>
+</header>
+  
   <p>De conformidad a lo estipulado por la Constitución Política de los Estados Unidos Mexicanos, la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados, la Ley de Protección de Datos Personales en Posesión de Sujetos Obligados para el Estado de Baja California y Lineamientos de Protección de Datos Personales en Posesión de Sujetos Obligados del Estado de Baja California, se emite el presente Aviso de Privacidad Académico para el conocimiento de aspirantes, estudiantes, egresados y egresadas, personal académico y administrativo, autoridades universitarias y del público en general.</p>
 
   <h2>Responsable</h2>
